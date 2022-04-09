@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App{
+  display: inline-flex;
+  align-items:center;
+  width:100%;
+  /* background-color: red; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.graphWindow {
+    border-style: solid;
+    height: 300px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.recipeEntry {
+  display:flex;
+  width:100%;
+  min-width:100%;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: row;
+  flex-wrap:wrap;
+  /* background-color: #18e8e8; */
+}
+.menu {
+  width:100%;
+  background-color: #ffffff;
+}
+.steps{
+  flex-wrap:wrap;
+  display:flex;
+
+}
+.sidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #e8e8e8; */
+  min-width: 250px;
+  margin-right: 50px;
+  min-height: 100vh;
+  flex: 0.25;
+}
+
+.addIcon {
+  /* border: solid 2px #4675AA; */
+  /* align-self: flex-end; */
+  position:fixed;
+  right:0;
+  bottom:0;
+}
+.graphs {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content: center;
+  /* border: solid 2px #4675AA; */
+}
+.flex-container {
+  color: blue;
+  /* background-color:yellow; */
+  text-decoration: bold;
+  text-size: 1em;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.horizontal {
+  flex-direction:row;
+  background-color: red;
+}
+
+.vertical {
+  flex-direction:column;
+}
+
+.box {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.container {
+  display:flex;
+  min-height:100vh;
+  justify-content: center;
+  align-items:center;
+}
