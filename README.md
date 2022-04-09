@@ -13,7 +13,7 @@ npm run start
 
 `
 ## Recipe-Based
-The recipe-based system is under the example-based directory. To run the system please run the following commands:
+The recipe-based system is under the recipe-based directory. To run the system please run the following commands:
 
 ``` sh
 cd recipes-app
