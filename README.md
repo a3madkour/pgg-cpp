@@ -1,5 +1,5 @@
 # Towards Non-Technical Designer Control over PCG Systems: Investigating an Example-Based Mechanism for Controlling Graph Grammars 
-This repository hosts the code for FDG submission X. 
+This repository hosts the code for an FDG paper submission. 
 The repo contains the web-assembly required for the systems to work. If you wish to compile it from scratch you would need the latest version of emscripten and run the "build.sh" script in the src directory for each system.
 
 ## Example-Based
